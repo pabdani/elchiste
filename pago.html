@@ -12,7 +12,9 @@
     <p>elchiste.ml-pay-chistes</p>
     <p id="num"></p>
     <script>
-    number = Math.floor((Math.random() * 100000) + 214);
-    document.getElementById("num") = element.innerHTML(number);
+    function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+
     </script>
   </body>
